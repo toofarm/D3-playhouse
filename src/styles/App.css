@@ -1,0 +1,85 @@
+.my-chart {
+  margin: 35px auto; }
+  .my-chart div {
+    background-color: slateblue;
+    text-align: right;
+    padding: 7px;
+    margin: 4px;
+    color: white; }
+
+.legend {
+  font-size: 12px; }
+
+rect {
+  stroke-width: 2; }
+
+.my-chart {
+  position: relative; }
+  .my-chart #pie-chart {
+    height: 360px;
+    position: relative;
+    width: 360px; }
+  .my-chart div.tooltip {
+    background: #eee;
+    box-shadow: 0 0 5px #999999;
+    color: #333;
+    display: none;
+    font-size: 12px;
+    left: 720px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    top: 95px;
+    width: 80px;
+    z-index: 10; }
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6; }
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px; }
+
+.App {
+  text-align: center; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white; }
+
+.App-title {
+  font-size: 1.5em; }
+
+.App-intro {
+  font-size: large; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.chart {
+  margin: 30px;
+  font-size: 26px;
+  border-bottom: 1px solid #000; }
+  .chart .controls {
+    margin: 15px auto; }
+    .chart .controls button {
+      font-size: 18px;
+      margin: 5px 12px;
+      background: none;
+      border: 2px solid #666;
+      color: #666;
+      border-radius: 4px; }
+    .chart .controls button:hover {
+      color: #222;
+      border: 2px solid #222;
+      cursor: pointer; }

@@ -1,0 +1,11 @@
+
+  Usage: ndjson-reduce [options] [expression [initial]]
+
+  Reduce a newline-delimited JSON stream to a single value.
+
+  Options:
+
+    -V, --version                output the version number
+    -r, --require <name=module>  require a module (default: [object Object])
+    -h, --help                   output usage information
+
