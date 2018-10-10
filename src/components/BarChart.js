@@ -16,6 +16,10 @@ class BarChart extends Component {
       .data(data)
         .enter()
         .append("div")
+          .style("width", 0)
+          .transition()
+          .delay(500)
+          .duration(750)
           .style("width", (d) => d + "px")
           .text( (d) => d)
 

@@ -22,8 +22,6 @@ class ThreeCircles extends Component {
     } else if (order === "remove") {
         data.pop()
     }
-    
-    console.log(data)
 
     var svg = d3.select(".circles-corral")
     var circles = svg.selectAll("circle").data(data)
@@ -31,7 +29,7 @@ class ThreeCircles extends Component {
         .attr("cx", () => Math.random() * 700)
         .attr("r", (d) => d/2.5)
 
-    circles.enter().append("circle")
+    circles.enter().append("circle") 
             .style("fill", "steelblue")
             .attr("cx", () => Math.random() * 700)
             .attr("r", 0)

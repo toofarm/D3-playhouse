@@ -86,3 +86,18 @@ export const links_data = [
   {"source": "Cynthia", "target": "Jamie", "type":"E"},
   {"source": "Mauer", "target": "Jessie", "type":"E"}
 ]
+
+export const fake_jobs = [
+  {"position": "Dog walker", "confidence": 2, "days": 12},
+  {"position": "Stock broker", "confidence": 7, "days": 7},
+  {"position": "Milk maid", "confidence": 4, "days": 22},
+  {"position": "Haberdasher", "confidence": 1, "days": 3},
+  {"position": "Window Washer", "confidence": 5, "days": 3},
+  {"position": "Taxi driver", "confidence": 6, "days": 13},
+  {"position": "Carnival Barker", "confidence": 3, "days": 9},
+  {"position": "Granfaloon", "confidence": 5, "days": 21},
+  {"position": "Jockey", "confidence": 3, "days": 2},
+  {"position": "Horse Trainer", "confidence": 7, "days": 15},
+  {"position": "Barista", "confidence": 1, "days": 8},
+  {"position": "Court Jester", "confidence": 4, "days": 18}
+]

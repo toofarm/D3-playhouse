@@ -3,9 +3,10 @@ import logo from '../logo.svg';
 
 import BarChart from './BarChart'
 import ThreeCircles from './ThreeCircles'
-import PieChart from './PieChart';
+import PieChart from './PieChart'
 import Grid from './Grid'
 import ForceDirected from './ForceDirected'
+import ScatterPlot from './ScatterPlot'
 
 import '../styles/App.css';
 
@@ -22,6 +23,7 @@ class App extends Component {
         <PieChart />
         <Grid />
         <ForceDirected />
+        <ScatterPlot />
       </div>
     );
   }

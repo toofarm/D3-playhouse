@@ -87,7 +87,7 @@ class PieChart extends Component {
     path.on('mouseover', function(d) {                    
         var total = d3.sum(dataset.map(function(d) {                
           return d.count;                                           
-        }));                                                       
+        }))                                                       
         var percent = Math.round(1000 * d.data.count / total) / 10;  
         tooltip.select('.label').html(d.data.label);                
         tooltip.select('.count').html(d.data.count);                

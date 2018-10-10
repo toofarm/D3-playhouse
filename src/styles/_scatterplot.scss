@@ -1,0 +1,25 @@
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.tooltip-sp {
+  position: absolute;
+  width: 150px;
+  height: 28px;
+  pointer-events: none;
+  font-size: 0.6em;
+  .sp-tp-label {
+      font-size: 0.7em;
+  }
+}
+
+.label-sp {
+    font-size: 0.5em;
+}
